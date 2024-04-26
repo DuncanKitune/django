@@ -11,5 +11,6 @@
           dateDisplay.innerHTML = getCurrentDateAndTime();
        }
        setInterval(updateDateTime, 1000); //update every 1 second
-
-  })();
+  }
+(() => {
+    
